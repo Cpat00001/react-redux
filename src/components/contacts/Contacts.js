@@ -23,7 +23,7 @@ class Contacts extends Component {
   }
 }
 // needs Propst to transfer data from/ contactReducer and index.js
-Contacts.PropTypes = {
+Contacts.propTypes = {
   contacts: PropTypes.array.isRequired,
   getContacts: PropTypes.func.isRequired
 };
